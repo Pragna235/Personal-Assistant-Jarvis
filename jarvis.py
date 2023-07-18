@@ -70,7 +70,7 @@ if __name__ == '__main__':
             elif 'open calendar' in query:
                 webbrowser.open('calendar.com')
             elif 'open code' in query:
-                codepath = "C:\\Users\\yandu\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                codepath = "C:\\Users\\#user_name#\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
                 os.startfile(codepath)
             elif 'time' in query:
                 strTime = datetime.datetime.now().strftime("%h:%m:%S")
